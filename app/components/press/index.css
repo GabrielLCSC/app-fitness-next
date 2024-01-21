@@ -1,0 +1,57 @@
+.bench {
+  margin-top: 24px;
+}
+
+.bench__title {
+  margin-top: 32px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bench__series {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.bench__series label {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.bench__series input {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  background: rgba(217, 217, 217, 0);
+  flex-shrink: 0;
+  border: 0.4px solid #848484;
+}
+
+.bench__series input:focus {
+  outline: 0.4px solid #24ff00;
+}
+
+.bench__series input::placeholder {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #8484843a;
+  text-align: center;
+}
+
+.bench__series__inputs {
+  position: absolute;
+  left: 130px;
+  display: flex;
+  gap: 12px;
+}
